@@ -1,1 +1,2 @@
-web: java $JAVA_OPTS -cp target/classes:target/m2e-wtp/*.jar co.com.hometestit
+web: java $JAVA_OPTS -jar target/dependency/hometestit.jar --port $PORT target/*.war
+
