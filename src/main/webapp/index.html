@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Saldo, Bono y ultimo tramite</title>
+        <title>Test-it!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -11,16 +11,71 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="js/controler.js"></script>
     </head>
-    <body id="page-top" class="index" style="background-color: #168ccc">
-        <div class="container">
-                <h1 class="text-center" style="color: yellow">Test it!</h1>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <video class="embed-responsive-item" controls>
-                        <source src="media/Daily.mp4" type="video/mp4">
-                    </video> 
+    <body id="page-top" style="background-color: #000">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html" >Home</a>
+                        </li>
+                        <li>
+                            <a href="documentos.html" >Documentos</a>
+                        </li>
+                        <li>
+                            <a href="nosotros.html" >Quienes somos</a>
+                        </li>
+                    </ul>
                 </div>
+            </div> 
+        </nav>
+        <div class="container">
+            <div class="page-header">
+                <h1 class="text-center" style="color: yellow;margin-top: 70px; font-size: 75px">Test it!</h1>
+                <div class="row">
+                    <div class="embed-responsive embed-responsive-16by9 col-sm-10 col-md-offset-1">
+                        <video class="embed-responsive-item col"  controls>
+                            <source src="media/Daily.mp4" type="video/mp4">
+                        </video> 
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+    <footer class="container-fluid text-center" style="background-color:#393e46;background-color: #3949AB; color: white; padding: 15px;" >
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h4>Creado  Por </h4>
+                        <p>Test-IT!</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Contactanos</h4>
+                        <ul class="list-inline">
+                            <li>david_p_2006@hotmail.com</li>
+                            <li>claumartinez834@gmail.com</li>
+                            <li>aguilamocha1@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Pruebas automáticas de Software</h4>
+                        <p> Consultoría y automatización de pruebas de software</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Test-IT!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            
+   </body>
 </html>
