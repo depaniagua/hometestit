@@ -25,7 +25,7 @@
                         </li>
                         <li>
                             <a href="nosotros.html" >Quienes somos</a>
-                        </li>
+                        </li>                                             
                     </ul>
                 </div>
             </div> 
@@ -44,6 +44,10 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr>
+                                    <td>Video de presentación</td>
+                                    <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Descargar</button></td>
+                                </tr>
                                 <tr>
                                     <td>Carta de compromiso</td>
                                     <td><a href="documentos/Carta_de_compromiso.pdf" class="btn btn-primary">Descargar</a></td>
@@ -86,6 +90,25 @@
                 </div>
             </div>
         </div>
+        <!-- modals pages -->
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Video de presentación Test-It!</h4>
+              </div>
+              <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9 ">
+                    <video class="embed-responsive-item col"  controls>
+                        <source src="media/Daily.mp4" type="video/mp4">
+                    </video> 
+                </div>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
     <footer class="container-fluid text-center" style="background-color:#393e46;background-color: #3949AB; color: white; padding: 15px;" > 
         <div class="footer-above">
             <div class="container">
